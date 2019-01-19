@@ -1,4 +1,7 @@
 module.exports = {
+    siteMetadata: {
+        title: `Pandas YOloo`,
+    },
     plugins: [
       `gatsby-plugin-emotion`,
       {
