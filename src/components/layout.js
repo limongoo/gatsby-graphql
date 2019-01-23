@@ -40,7 +40,7 @@ export default ({ children }) => (
                 <Link
                     to={`/my-files/`}
                     css={css`
-                    float: right;
+                    float: right; margin-left: 1rem;
                     `}
                 >
                 My Files
