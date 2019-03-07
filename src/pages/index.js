@@ -8,15 +8,14 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1
+        <h3
           css={css`
             display: inline-block;
             border-bottom: 1px solid;
           `}
         >
           My Portfolio
-        </h1>
-        {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
+        </h3>
 
         <Projectlist></Projectlist>
       </div>
