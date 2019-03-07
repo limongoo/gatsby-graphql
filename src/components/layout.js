@@ -43,14 +43,14 @@ export default ({ children }) => (
                     css={css`
                     `}
                 >
-                Info
+                Work
                 </Link>
                 <Link
-                    to={`/about/`}
+                    to={`/info/`}
                     css={css`
                     `}
                 >
-                About
+                Info
                 </Link>
             <Link
                 to={`/my-files/`}
