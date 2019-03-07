@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `Pandas YOloo`,
+        title: `Portfolio Board`,
     },
     plugins: [
         {      
@@ -10,6 +10,7 @@ module.exports = {
                 path: `${__dirname}/src/`,      
             },    
         },
+        `gatsby-mdx`,
         `gatsby-transformer-remark`,
         `gatsby-plugin-emotion`,
         {
